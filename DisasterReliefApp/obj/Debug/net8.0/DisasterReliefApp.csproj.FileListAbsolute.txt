@@ -1,0 +1,8 @@
+C:\Users\RC_Student_lab\DisasterReliefApp\obj\Debug\net8.0\DisasterReliefApp.csproj.AssemblyReference.cache
+C:\Users\RC_Student_lab\DisasterReliefApp\obj\Debug\net8.0\DisasterReliefApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RC_Student_lab\DisasterReliefApp\obj\Debug\net8.0\DisasterReliefApp.AssemblyInfoInputs.cache
+C:\Users\RC_Student_lab\DisasterReliefApp\obj\Debug\net8.0\DisasterReliefApp.AssemblyInfo.cs
+C:\Users\RC_Student_lab\DisasterReliefApp\obj\Debug\net8.0\DisasterReliefApp.csproj.CoreCompileInputs.cache
+C:\Users\RC_Student_lab\DisasterReliefApp\obj\Debug\net8.0\DisasterReliefApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\RC_Student_lab\DisasterReliefApp\obj\Debug\net8.0\DisasterReliefApp.RazorAssemblyInfo.cache
+C:\Users\RC_Student_lab\DisasterReliefApp\obj\Debug\net8.0\DisasterReliefApp.RazorAssemblyInfo.cs

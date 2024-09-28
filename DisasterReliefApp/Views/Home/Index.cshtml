@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model DisasterReliefApp.ViewModels.IndexViewModel
+
+<h1>Report an Incident</h1>
+<form asp-action="SubmitIncident" method="post">
+    <label for="DisasterType">Disaster Type</label>
+    <input asp-for="IncidentReport.DisasterType" />
+    
+    <label for="Location">Location</label>
+    <input asp-for="IncidentReport.Location" />
+    
+    <label for="DateReported">Date Reported</label>
+    <input asp-for="IncidentReport.DateReported" type="date" />
+    
+    <label for="Description">Description</label>
+    <textarea asp-for="IncidentReport.Description"></textarea>
+
+    <button type="submit">Submit Incident</button>
+</form>
+
+<h1>Donate Resources</h1>
+<form asp-action="SubmitDonation" method="post">
+    <label for="ResourceType">Resource Type</label>
+    <input asp-for="Donation.ResourceType" />
+    
+    <label for="Quantity">Quantity</label>
+    <input asp-for="Donation.Quantity" />
+    
+    <label for="DonorName">Donor Name</label>
+    <input asp-for="Donation.DonorName" />
+    
+    <label for="ContactInfo">Contact Information</label>
+    <input asp-for="Donation.ContactInfo" />
+
+    <button type="submit">Submit Donation</button>
+</form>
+
+<h1>Register as a Volunteer</h1>
+<form asp-action="RegisterVolunteer" method="post">
+    <label for="Name">Name</label>
+    <input asp-for="Volunteer.Name" />
+    
+    <label for="TaskAssigned">Task Assigned</label>
+    <input asp-for="Volunteer.TaskAssigned" />
+    
+    <label for="TaskDate">Task Date</label>
+    <input asp-for="Volunteer.TaskDate" type="date" />
+
+    <button type="submit">Register Volunteer</button>
+</form>
+
+
