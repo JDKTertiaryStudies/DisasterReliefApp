@@ -1,0 +1,19 @@
+*.vsidx
+# Ignore Visual Studio-specific files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build output
+bin/
+obj/
+
+# Ignore other temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore all files ending with .vsidx
+

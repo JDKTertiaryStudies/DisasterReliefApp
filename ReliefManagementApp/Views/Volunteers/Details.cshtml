@@ -1,0 +1,42 @@
+﻿@model ReliefManagementApp.Models.Volunteer
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Volunteer</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.RegistrationDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.RegistrationDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.AssignedTasks)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.AssignedTasks)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.User)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.User.UserID)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Project)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Project.ProjectID)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.VolunteerID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
